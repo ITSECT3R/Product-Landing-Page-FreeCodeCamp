@@ -1,0 +1,590 @@
+/* General setting.  begin -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(112, 112, 112);
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0; 
+    padding-top: 100px; 
+}
+
+/* General setting.  end -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Header settings. begin
+-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 20px 10px; 
+    background-color: #333;
+    color: white;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 1);
+    border-bottom: 4px solid #6200ff;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    margin: 0; 
+    z-index: 1000; 
+    
+}
+
+header:hover{
+    background-color: #444;
+}
+
+.ul-nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    text-shadow: 1px 1px 2px red, 0 0 2em blue, 0 0 0.4em rgb(0, 166, 255);
+
+}
+
+
+.ul-nav  a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.ul-nav a:hover{
+    color: #aaa;
+}
+
+.crown-logo{
+    margin-left: 15px;
+}
+
+.logo-name{
+    font-family: serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #fbff00;
+    text-shadow: #FC0 1px 0 10px;
+    margin-left: 25px;
+    position: absolute;
+    top: 10px;
+
+}
+
+.logos-box{
+    min-width: fit-content;
+    position: relative;
+}
+
+/* Header settings. end
+-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Section settings. begin 
+--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.main-body{
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.h2_section{
+    font-size: 2.3rem;
+    text-shadow: 1px 1px 2px rgb(255, 208, 0), 0 0 25px rgb(147, 96, 0), 0 0 5px rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.galery-container {
+    padding: 1px;
+}
+
+.pc-galery  {
+    padding: 1px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    flex-wrap: wrap; 
+    margin-bottom: 30px;
+}
+
+.cards {
+    border: solid 3px rgb(98, 98, 98);
+    padding: 10px;
+    height: 500px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 6px rgba(227, 227, 227, 0.25);
+    background-position: center center;
+    background-size: cover;
+}
+
+.cards h3{
+    font-weight: 800;
+    font-size: clamp(1.8rem, 2vw, 3rem);
+    margin-top: 10px;
+    text-shadow: rgb(255, 0, 0) 1px 1px 10px,rgb(255, 0, 0) 1px 1px 10px,rgb(255, 0, 0) 1px 1px 10px;
+    color: #ffffff;
+}
+
+.card1_main{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://i.blogs.es/496f58/circuito-refrigeracion/1366_2000.jpg);
+}
+
+.card2_main{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://i.pinimg.com/736x/4f/0b/61/4f0b61e9bca79c22ab1435168a05faff.jpg);
+}
+
+.card3_main{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://www.digitaltrends.com/wp-content/uploads/2024/02/Skytech-Gaming.jpg?fit=720%2C720&p=1);
+}
+
+.card_discription{
+    background-color: rgb(88, 88, 88);
+    margin-top: -45px;
+    padding-top: 50px;
+    padding-bottom: 7px;
+    position: relative;
+    border-radius: 0 0 20px 20px; 
+    z-index: -1;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 1),6px 8px 14px rgba(0, 0, 0, 1);
+}
+
+.card_discription li{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px red, 0 0 2em blue, 0 0 0.4em rgb(0, 166, 255);
+}
+ 
+.galery-container{
+    margin-bottom: 40px;
+}
+
+.full_card_container{
+    transition: .3s ease-in-out;
+}
+
+
+.full_card_container:hover{
+    transform: scale(1.02);
+}
+
+/* section 1. begin 
+--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.logo-title-section1{
+    color: #fbff00;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.li_assets{
+    display: flex;
+}
+
+.li_assets svg{
+    margin-right: 20px;
+    height: 3.8rem;
+    width: 3.8rem;
+    min-width: 3.8rem;
+}
+
+.h3_section1{
+    text-align: center;
+    text-shadow: rgb(255, 0, 0) 1px 1px 10px,rgb(255, 0, 0) 1px 1px 10px;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.wrapper_assets{
+    margin-bottom: 40px;
+}
+
+.wrapper_assets h3{
+    font-size: 1.6rem;
+    margin-left: 70px;
+    margin-bottom: -5px;
+    color: #6200ff;
+    text-shadow:  0 0px 1px rgba(0, 0, 0, 1);
+}
+
+.wrapper_assets p{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.div_video1{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+
+}
+
+.video_1{
+    width: 70%;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 1),6px 8px 14px rgba(0, 0, 0, 1);
+    border-radius: 40px;
+}
+
+/* section 1. end 
+--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* section 2 catalog. begin 
+--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.Catalog_h3{
+    color: #6200ff;
+    text-shadow:  0 0px 1px rgba(0, 0, 0, 1);
+
+}
+
+.card1_beginner{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://www.xtremepc.com.mx/cdn/shop/files/190a99f7-8f64-4b10-8bb5-5c3dbb70557f_800x.png?v=1717718124);
+    background-color: #444;
+
+}
+
+.card2_beginner{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://todoclick.cl/6737164-large_default/pc-gamer-cobra-black-v2-intel-core-i5-10400f-rtx-3050.jpg);
+    
+}
+
+.card3_beginner{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://pconemexico.com.mx/cdn/shop/files/AC-929547.1_a199789a-de67-4089-929e-2cb96bb5a568.webp?v=1699382055);
+    background-color: #444;
+
+}
+
+.card1_I{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://assets.spartangeek.com/cc/_pcDetailLarge/46310/Balam-Rush-DragonFly-II-Crystal-GM745-Blanco-1.webp);
+    background-color: #444;
+
+}
+
+.card2_I{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://www.premium-pc.com/upload/product/65/cmp_510_pure_rock_2_01_modif_800.webp);
+    
+}
+
+.card3_I{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://assets.spartangeek.com/cc/_pcDetailLarge/46303/Balam-Rush-DragonFly-II-Crystal-GM745-Negro-1.webp);
+    background-color: #444;
+
+}
+
+.card1_A{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://assets.spartangeek.com/cc/_pcDetailLarge/34737/Gabinete-Thermaltake-Core-P3-TG.webp);
+    background-color: #444;
+
+}
+
+.card2_A{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://m.media-amazon.com/images/I/81Lo%20w55%206L.jpg);
+    
+}
+
+.card3_A{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://assets.spartangeek.com/cc/_pcDetailLarge/16090/rog-strix-helios-5.webp);
+    background-color: #444;
+
+}
+
+.card1_E{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://images.shopcdn.co.uk/73/00/73009e54030c99f47788f0cd42549e32/2048x2048/webp/resize?t=1719572167);
+    background-color: #444;
+
+}
+
+.card2_E{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://www.update-informatique.fr/6952-product_zoom/pc-gamer-rtx-4090-i7.webp);
+    
+}
+
+.card3_E{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0,0,0,0.4)
+    ),
+    url(https://compuclinic.odoo.com/web/image/product.template/1125/image_1024?unique=9cd178d);
+    background-color: #444;
+
+}
+
+
+
+/* section 2 catalog. end 
+--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* section 3 form. begin 
+--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.wrapper_form{
+    /* border: solid red 4px; */
+    padding: 10px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-bottom: 50px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(55, 55, 55);
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 1),6px 8px 14px rgba(0, 0, 0, 1);
+    border: #6200ff solid 4px;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.input_form{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 45px;
+    border: solid 3px #6200ff;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    padding: 10px;
+    background-color:  #cdcdcd;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    
+}
+
+.input_form:hover{
+    background-color:  #ffffff;
+    border: solid 3px  #ff7300;
+
+}
+
+#phone{
+    width: 100%;
+    max-width: 300px;
+}
+
+#dropdown{
+    width: 100%;
+    max-width: 300px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#pc_details{
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    font-size: 1.3rem;
+    
+}
+
+#submit{
+    width: 100%;
+    max-width: 400px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px red, 0 0 2em blue, 0 0 0.4em rgb(0, 166, 255);
+    background-color: #3300ff;
+    font-size: 1.5rem;
+    transition: .4s ease-in-out;
+}
+
+#submit:hover{
+    background-color: #6600ff;
+
+
+}
+
+form label{
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px red, 0 0 2em blue, 0 0 0.4em rgb(0, 166, 255);
+
+}
+
+
+/* section 3 form. end 
+--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* section 4 Contacts. begin 
+--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Contacts{
+    background-color: #000000;
+    padding-top: 1px;
+    padding-bottom: .1px;
+    
+    
+}
+
+.wrapper_footer{
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.contact_list{
+    margin-bottom: 40px;
+    
+}
+
+.contact_list ul{
+    align-items: center;
+    justify-content: center;
+}
+
+.svg_footer{
+    margin-bottom: -20px;
+    width: 40px;
+}
+
+.ul_footer li{
+    transition: .3s ease-in-out;
+}
+
+.ul_footer li:hover{
+    margin-top: -10px;
+}
+
+
+/* section 4 Contacts. end 
+--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Responsive Web design begin. 
+--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media(max-width: 950px){
+
+    header {
+        display: initial;
+        position: absolute;      
+    }
+
+
+
+    body {
+        padding-top: 300px; 
+    }
+
+    .pc-galery {
+        grid-template-columns: initial; 
+    }
+
+
+    .ul-nav{
+        display: initial;
+    }
+
+    .ul-nav  a{
+        margin-bottom: 7px;
+        display: block;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .video_1{
+        height: 300px;
+    }
+
+
+
+}
