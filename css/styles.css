@@ -4,10 +4,6 @@
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: rgb(112, 112, 112);
-}
-
 body, html {
     font-family: Arial, sans-serif;
 }
@@ -15,6 +11,8 @@ body, html {
 body {
     margin: 0; 
     padding-top: 100px; 
+    background-color: rgb(112, 112, 112);
+
 }
 
 /* General setting.  end -------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -32,7 +30,7 @@ header {
     color: white;
     box-shadow: 0 8px 14px rgba(0, 0, 0, 1);
     border-bottom: 4px solid #6200ff;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
     position: fixed;
     top: 0; 
     left: 0; 
@@ -148,8 +146,7 @@ header:hover{
         0deg,
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
-    ),
-    url(https://i.blogs.es/496f58/circuito-refrigeracion/1366_2000.jpg);
+    ),url(../resources/P1-demo.jpg);
 }
 
 .card2_main{
@@ -158,7 +155,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://i.pinimg.com/736x/4f/0b/61/4f0b61e9bca79c22ab1435168a05faff.jpg);
+    url(../resources/P2-demo.jpg);
 }
 
 .card3_main{
@@ -167,7 +164,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://www.digitaltrends.com/wp-content/uploads/2024/02/Skytech-Gaming.jpg?fit=720%2C720&p=1);
+    url(../resources/P3-demo.webp);
 }
 
 .card_discription{
@@ -281,7 +278,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://www.xtremepc.com.mx/cdn/shop/files/190a99f7-8f64-4b10-8bb5-5c3dbb70557f_800x.png?v=1717718124);
+    url(../resources/P1-Beginner.webp);
     background-color: #444;
 
 }
@@ -292,7 +289,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://todoclick.cl/6737164-large_default/pc-gamer-cobra-black-v2-intel-core-i5-10400f-rtx-3050.jpg);
+    url(../resources/P2-Beginner.jpg);
     
 }
 
@@ -302,7 +299,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://pconemexico.com.mx/cdn/shop/files/AC-929547.1_a199789a-de67-4089-929e-2cb96bb5a568.webp?v=1699382055);
+    url(../resources/P3-Beginner.png);
     background-color: #444;
 
 }
@@ -313,7 +310,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://assets.spartangeek.com/cc/_pcDetailLarge/46310/Balam-Rush-DragonFly-II-Crystal-GM745-Blanco-1.webp);
+    url(../resources/P1-Interm.webp);
     background-color: #444;
 
 }
@@ -324,7 +321,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://www.premium-pc.com/upload/product/65/cmp_510_pure_rock_2_01_modif_800.webp);
+    url(../resources/P2-Interm.webp);
     
 }
 
@@ -334,7 +331,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://assets.spartangeek.com/cc/_pcDetailLarge/46303/Balam-Rush-DragonFly-II-Crystal-GM745-Negro-1.webp);
+    url(../resources/P3-Interm.webp);
     background-color: #444;
 
 }
@@ -345,7 +342,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://assets.spartangeek.com/cc/_pcDetailLarge/34737/Gabinete-Thermaltake-Core-P3-TG.webp);
+    url(../resources/P1-Advanced.webp);
     background-color: #444;
 
 }
@@ -356,7 +353,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://m.media-amazon.com/images/I/81Lo%20w55%206L.jpg);
+    url(../resources/P2-Advanced.jpg);
     
 }
 
@@ -366,7 +363,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://assets.spartangeek.com/cc/_pcDetailLarge/16090/rog-strix-helios-5.webp);
+    url(../resources/P3-Advanced.webp);
     background-color: #444;
 
 }
@@ -377,7 +374,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://images.shopcdn.co.uk/73/00/73009e54030c99f47788f0cd42549e32/2048x2048/webp/resize?t=1719572167);
+    url(../resources/P1-Elite.webp);
     background-color: #444;
 
 }
@@ -388,7 +385,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://www.update-informatique.fr/6952-product_zoom/pc-gamer-rtx-4090-i7.webp);
+    url(../resources/P2-Elite.webp);
     
 }
 
@@ -398,7 +395,7 @@ header:hover{
         rgba(0, 0, 0, 0.4),
         rgba(0,0,0,0.4)
     ),
-    url(https://compuclinic.odoo.com/web/image/product.template/1125/image_1024?unique=9cd178d);
+    url(../resources/P3-Elite.png);
     background-color: #444;
 
 }
@@ -428,6 +425,11 @@ header:hover{
     border: #6200ff solid 4px;
     padding: 20px;
     border-radius: 30px;
+    transition: .3s ease-in-out;
+}
+
+#form:hover{
+    border: #ff7300 solid 4px;
 
 }
 
@@ -544,6 +546,11 @@ form label{
     margin-top: -10px;
 }
 
+.svg_footer{
+    width: 4rem;
+
+}
+
 
 /* section 4 Contacts. end 
 --------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -575,10 +582,16 @@ form label{
     }
 
     .ul-nav  a{
-        margin-bottom: 7px;
+        margin-bottom: 20px;
         display: block;
         font-size: 1.4rem;
         text-align: center;
+        
+    }
+
+    .ul_footer li:hover{
+        margin-top: 0;
+        transform: scale(1.2);
     }
 
     .video_1{
